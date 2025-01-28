@@ -1,0 +1,53 @@
+sellenix/
+├── app/
+│   ├── api/
+│   │   └── auth/
+│   │       └── [...nextauth]/
+│   │           └── route.ts
+│   ├── dashboard/
+│   │   └── page.tsx
+│   ├── login/
+│   │   └── page.tsx
+│   ├── register/
+│   │   └── page.tsx
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── ui/
+│   │   ├── button.tsx
+│   │   ├── card.tsx
+│   │   ├── input.tsx
+│   │   └── toast.tsx
+│   ├── DashboardClient.tsx
+│   ├── Footer.tsx
+│   ├── Header.tsx
+│   ├── PaymentHistory.tsx
+│   ├── SEOReports.tsx
+│   ├── SubscriptionManager.tsx
+│   └── WebsiteList.tsx
+├── lib/
+│   ├── prisma.ts
+│   ├── socketContext.tsx
+│   └── utils.ts
+├── pages/
+│   └── api/
+│       ├── create-payment.ts
+│       ├── create-subscription.ts
+│       ├── mollie-webhook.ts
+│       ├── packages.ts
+│       ├── seo/
+│       │   └── overview.ts
+│       ├── subscriptions/
+│       │   └── [id]/
+│       │       └── upgrade.ts
+│       └── user.ts
+├── prisma/
+│   └── schema.prisma
+├── styles/
+│   └── globals.css
+├── .env
+├── .env.example
+├── next.config.js
+├── package.json
+└── tsconfig.json
+
